@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="all">
+        <p>
+            Anotar no computador é mais fácil que anotar no cérebro!
+        </p>
+        <div class="botoes">
+            <input type="text" id="newNote" placeholder="Adicione uma nova nota">
+            <input type="submit" id="enviarNota" value="Adicionar" onclick="add()">
+        </div>
+        <div class="notesPlace">
+            <div class="a fazer">
+                <p class="namespace">
+                    Tarefas a fazer
+                </p>
+                <ul>
+                    <li id="notesPlace">
+
+                    </li>
+                </ul>
+            </div>
+            <div class="pergunta">
+                <p class="namespace">
+                    Está feita?
+                </p>
+                <ul>
+                    <li id="perguntas">
+                        <input type="checkbox" name="" id="cx" onclick="notaFeita()">
+                    </li>
+                </ul>
+            </div>
+            <div class="feita">
+                <p class="namespace">
+                    Tarefas feitas
+                </p>
+                <ul>
+                    <li id="tarefasFeitas">
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>

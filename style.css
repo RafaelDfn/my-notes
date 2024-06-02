@@ -1,0 +1,30 @@
+*{
+    background-color:palegoldenrod;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+
+}
+.all{
+    
+}
+.botoes{
+    display: flex;
+    margin-left:38%;
+   
+}
+.notesPlace{
+    margin-left:33%;
+    display: flex;
+}
+.namespace{
+    font-size: 22px;
+
+}
+.pergunta{
+    margin-left: 40px;
+}
+.feita{
+    margin-left: 40px;
+}
